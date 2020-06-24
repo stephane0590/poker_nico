@@ -1,0 +1,160 @@
+#play {
+  min-height: 500px;
+  padding: 30px;
+}
+
+#partners {
+  min-height: 400px;
+  padding: 30px;
+}
+
+
+#about {
+  min-height: 300px;
+  padding: 30px;
+}
+
+#game {
+  margin: 0 auto;
+  height: 450px;
+  width: 1000px;
+  text-align: center;
+  background-image: url("../images/table-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.light-bg {
+  background-color: #D7DDE9;
+}
+
+.player {
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+  width: 170px;
+  margin: 80px;
+  margin-top: 21%;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 6px solid rgb(39, 38, 121);
+}
+
+.avatar img {
+  width: 80px;
+  border-radius: 100%;
+}
+
+#board {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20%;
+
+}
+
+.card, .card-player {
+  width: 60px;
+  height: 90px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  background-image: url("../images/cards/back-blue.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60px 90px;
+}
+
+
+
+.card {
+  background-color: rgba(0,0,0,0);
+  border: 4px solid#FFF ;
+  box-shadow: 0px 5px 20px#452387;
+}
+
+.card-player {
+  background-color:#D7DDE9;
+  border: 4px solid #FFF ;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px#452387;
+}
+
+.bg-white {
+  background-image: none;
+  background-color: #FFF;
+}
+
+.focus {
+	box-shadow: 0 0 0 0 rgba(39, 38, 121, 1);
+	transform: scale(1);
+  animation: pulse 2s infinite;
+  /* border: 4px solid rgb(202, 202, 247); */
+  margin-top: -5px;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(39, 38, 121, 0.8);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.bg-white img {
+  margin-top: 4px;
+}
+
+#deal {
+  margin: 0 auto;
+}
+
+#buttons {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.combo {
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #FFF;
+  color: #452387;
+  
+  box-shadow: 0px 2px 20px#452387;
+}
+
+.combo-win {
+  background-color: rgb(2, 177, 110);
+  color: #FFF;
+}
+.combo-loose {
+  background-color: rgb(223, 6, 42);
+  color: #FFF;
+}
+
+footer {
+  padding: 30px;
+}
